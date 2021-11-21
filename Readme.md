@@ -1,0 +1,1 @@
+Olá, este projeto é um catálogo de sapatos,tênis. Criei este projeto para apenas treinar minhas habilidades de HTML e CSS.

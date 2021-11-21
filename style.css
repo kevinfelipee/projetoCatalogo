@@ -1,0 +1,146 @@
+/* settings */
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Shippori Antique', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color:hsla(225, 14%, 11%, 1);
+}
+img{
+    cursor: pointer;
+    display: block;
+}
+.color-principal{
+    color: rgb(233, 223, 223);
+}
+.color-secundario{
+    color: rgb(124, 122, 122);
+}
+
+
+/* codigo */
+header{
+    width: 20%;
+    height: 100vh;
+    padding: 40px 25px;
+    position: fixed;
+}
+.actived{
+    color: white;
+}
+nav ul{
+    margin-top: 20%;
+    margin-bottom: 150px;
+}
+nav ul li{
+    padding-top: 20px;
+}
+.span-settings{
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*---- MAIN ----*/
+main{
+    padding-left: 22%;
+    padding-top: 30px;
+}
+.header-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-main-icons{
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+.header-main-icons i{
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/*---Catalogo---*/
+.img-item{
+    width: 170px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.catalogo-item{
+    margin-right: 25px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.info-item{
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.info-item h2,.info-item .preco-item{
+    font-size: 17px;
+}
+.info-item p{
+    font-size: 14px;
+}
+
+.catalogo{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
+}
+
+
+/*Catalogo destaque*/
+.imagem-destaque{
+    min-width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.catalogo-destaque{
+    margin-top: 40px;
+    display: flex;
+    
+}
+.imagem-lado-destaque{
+    min-width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.item-destaque-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.item-destaque-info p{
+    font-size: 20px;   
+}
+.item-destaque p{
+    margin-left: 15px;
+}
+.item-destaque{
+    margin-right: 13%;
+}
+
+/*catalogo lado*/
+.item-lado-info h2, .item-lado-info p{
+    font-size: 16px;
+}
+.item-lado-info{
+    margin-left: 25px;
+}
+.item-lado{
+    display: flex;
+    margin-bottom: 25px;
+}
